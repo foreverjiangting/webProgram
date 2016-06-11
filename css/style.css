@@ -104,11 +104,11 @@ a{
     margin-bottom:10px;
 }
 /*设置分页部分样式*/
-.pagina-page{
+.add-article-btn{
     display: inline-block;
     text-align: center;
-    padding-bottom: 35px;
-    padding-left:100px;
+    padding-bottom: 50px;
+    padding-left:240px;
 }
 
 
@@ -127,8 +127,8 @@ a{
 }
 .fixed-up-btn{
      position: absolute;
-     right: 90px;
-     top: 90px;
+     right: 150px;
+     top: 120px;
 }
 
 
@@ -249,8 +249,30 @@ a{
   vertical-align: top;
   width: 0;
 }
-
-
+/*输入框样式*/
+.main-navigation  .menu  .search{
+     position: absolute;top:8px;right:0px;
+}
+.search-incon  input{
+    width: 250px;
+}
+.search-form  #search{
+  font-size: 14px;
+  border-radius: 5px;
+  padding-left: 8px;
+  color: #ccc;
+}
+/*重写图标样式*/
+.glyphicon-search {
+    display: inline-block;
+    font-family: "Glyphicons Halflings";
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    margin-left: 98px;
+    position: absolute;
+    top: 8px;
+}
 
 
 
