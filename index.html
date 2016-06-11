@@ -7,11 +7,12 @@
 <title>java猿博客社区</title>
 
 <link href="css/bootstrap.min.css" rel="stylesheet">
-<link href="css/style.css" rel="stylesheet">  <!--  自定义的css样式-->
+<link href="css/index.css" rel="stylesheet">  <!--  自定义的css样式-->
+<link href="css/sign.css" rel="stylesheet">  
 
 <script src="http://cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
  <script src="js/bootstrap.min.js"></script>
-
+<script src="js/sign.js"></script>
 </head>
 <body>
 <!-- 头部 -->
@@ -19,7 +20,7 @@
             <div  class="container">
                      <div  class="row">
                                <div  class="col-md-12">
-                                       <a    class="branding"  href="#"   title="java猿开源博客">
+                                       <a    class="branding"  href="login.html"   title="java猿开源博客">
                                            <img  src="img/logo.png">
                                            <h2  class="head-text">
                                                   打造中国第一个java猿的博客社区
@@ -466,7 +467,62 @@
 </div>
 
 
+<!--  弹出模态框部分-->
+<div  class="modal  fade"  role="dialog"  aria-labelledby="gridSystem"  id="mymodal">
+         <div  class="modal-dialog"   role="document">
+                  <div  class="modal-content">
+                            <div  class="modal-header">
+                                       <button  type="button"  class="close"  data-dismiss="modal"
+                                                aria-label="close" >
+                                      <span  aria-hidden="true" >&times;</span>
 
+                                       </button>
+                                       <h4  class="modal-title"  id="gridSystemLabel">Create  your  Snappa  account</h4>
+                             </div>
+
+                             <div  class="modal-body"><!--  也可结合表单一起使用-->
+                                     <form>
+                                            <div  class="input-group">
+                                                    <span  class="input-group-addon"  id="username">
+                                                                <i  class="glyphicon glyphicon-user"></i>
+                                                    </span>
+                                                    <input  type="text"  class="form-control"  id="input1"  placeholder="your  full  name">
+                                            </div>
+                                            <div  class="input-group">
+                                                    <span  class="input-group-addon"  id="password">
+                                                                <i  class="glyphicon   glyphicon-lock"></i>
+                                                    </span>
+                                                    <input  type="text"  class="form-control"  id="input2"  placeholder="your  password(min  4  characters)">
+                                            </div>
+                                              <div  class="input-group">
+                                                    <span  class="input-group-addon"  id="email">
+                                                                <i  class="glyphicon   glyphicon-folder-close"></i>
+                                                    </span>
+                                                    <input  type="text"  class="form-control"  id="input3"  placeholder="your email address">
+                                            </div>
+                                             <div  class="input-group">
+                                                 <a  href="#"  class="modal-body-checkContent">
+                                                <input  type="checkbox"><span>&nbsp;&nbsp;&nbsp;Get  digital  marketing  tips</span>
+                                                </a>
+                                              </div>
+                                              <div  class="input-group  btn-dailog-pos">
+                                                        <a  href="#"  class="btn  btn-success  btn-lg">GET  STARTED</a>
+                                              </div>
+                                     </form>
+                                     <div  class="modal-sign-content">
+                                                 <span>By  signing  up,you  agree to  the <a href="#">Terms & conditions</a> and  Privacy  Policy</span>
+                                     </div>
+
+                             </div>
+
+
+                             <div  class="modal-footer">
+                                      <span  class="modal-judge-account">Already  have  an  account?</span>
+                                      <a  href="#">Login  in </a>
+                             </div>
+                  </div>
+         </div>
+</div>
 
 
 </body>
