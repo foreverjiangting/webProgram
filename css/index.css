@@ -5,7 +5,11 @@ html,body{
 }
 .main-header{
     padding:42px  0;
-    background: url(../img/head.jpg)  repeat;
+    background: url(../img/bg.jpeg)  no-repeat;
+    background-size:cover;
+    -moz-background-size:cover;
+    -webkit-background-size:cover;
+    background-attachment:fixed;
 }
 /*固定的头部图标样式*/
   .head-top-icon{
@@ -126,10 +130,11 @@ a{
     margin-top: -5px;
 }
 .fixed-up-btn{
-     position: absolute;
-     right: 150px;
-     top: 120px;
+    right: 150px;
+    position: absolute;
+    top: 80px;
 }
+
 
 
 .post  .post-footer{
@@ -274,7 +279,7 @@ a{
     top: 8px;
 }
 
-
+.
 
 
 

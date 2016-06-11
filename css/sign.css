@@ -1,0 +1,85 @@
+html,body{
+    color: #505050;
+    line-height: 1.7em;
+    background:#ebebeb;
+    
+}
+.main-sign{
+     width: 100%;
+     height: 649px;
+     background: url(../img/head.jpg) center no-repeat;
+    background-size:cover;
+    -moz-background-size:cover;
+    -webkit-background-size:cover;
+  
+}
+.main-sign  .main-sign-logo{
+    position: absolute;
+    right: 70px;
+    top: 0px;
+}
+.main-sign  .main-sign-logo  a:hover{
+    text-decoration: none;
+}
+.main-sign  .main-sign-logo .sign-title{
+    color: white;
+}
+.main-sign  .main-sign-logo  .sign-branding{
+    position: absolute;
+    right: 00px;top: 20px;
+}
+.main-sign  .main-sign-content{
+    position: absolute;top: 50px;
+    left: 100px;
+}
+.main-sign  .main-sign-content  h2{
+    color: white;
+}
+.main-sign  .main-sign-content   .main-sign-pic{
+    position: absolute;
+    top: 150px;
+    border: 6px  solid  white;
+    transform: rotate(40deg);
+    -o-transform: rotate(40deg);
+   -webkit-transform: rotate(40deg);
+   -moz-transform: rotate(40deg); 
+}
+/*重写模态框的样式*/
+.modal-dialog {
+    margin: 30px auto;
+    width: 500px;
+}
+.h4, h4 {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}
+.modal-body {
+    padding: 15px 50px 0;
+    position: relative;
+}
+.input-group {
+    border-collapse: separate;
+    display: table;
+    margin-top: 20px;
+    position: relative;
+}
+.modal-body  .modal-body-checkContent{
+    color: #555;
+}
+.modal-body  .modal-body-checkContent:hover{
+     text-decoration: none;
+    
+}
+.input-group.btn-dailog-pos{
+    padding-left: 120px;
+}
+.modal-sign-content{
+    padding-top: 20px;
+    font-size: 12px;
+    padding-bottom: 20px;
+}
+.modal-judge-account{
+    padding-right:230px;
+}
+
